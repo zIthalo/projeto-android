@@ -50,7 +50,7 @@ a.externo::after{
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
-    padding-bottom: 20px; /*Espaçamento entre título e texto*/
+    padding: 20px; /*Espaçamento entre título e texto*/
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.418); /*Este comando serve para colocar sombra no texto, não confunda nunca text shadow com box shadow. Se quiser colocar sombra somente no texto use text-shadow se quiser colar na caixa inteira aí é o box-shadow*/
     }
     
@@ -251,7 +251,7 @@ footer > p > a:hover{
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
-        top: 230px;
+        
     }
     #nav.active #menu{
         position: absolute;   
