@@ -244,7 +244,6 @@ footer > p > a:hover{
         display: block; /*Com display block cada link ocupa a sua linha, já com flex todos os itens ocupam uma só linha horizontal*/ 
         position: absolute;
         width: 100%;
-        top: 69px;
         right: 0px;
         background: var(--cor5);
         height: 0;
@@ -254,6 +253,8 @@ footer > p > a:hover{
         overflow-y: hidden;
     }
     #nav.active #menu{
+        position: absolute;
+        top: 240px;
         visibility: visible;
         overflow-y: auto;
         height: calc(100vh - 70px);   
