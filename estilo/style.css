@@ -265,7 +265,7 @@ footer > p > a:hover{
         border-bottom: 2px solid rgba(0, 0, 0, 0.05);
     }
     #btn-mobile{
-        color: white;
+        color: var(--cor1);
         display: flex;
         padding: .5rem 1rem;
         border: none;
