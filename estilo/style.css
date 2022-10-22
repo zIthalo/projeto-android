@@ -251,10 +251,10 @@ footer > p > a:hover{
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
+        top: 230px;
     }
     #nav.active #menu{
-        position: absolute;
-        top: 240px;
+        position: absolute;   
         visibility: visible;
         overflow-y: auto;
         height: calc(100vh - 70px);   
