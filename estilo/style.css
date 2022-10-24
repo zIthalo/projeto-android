@@ -239,7 +239,7 @@ footer > p > a:hover{
     border-radius: 3px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 660px){
     #menu{
         display: block; /*Com display block cada link ocupa a sua linha, já com flex todos os itens ocupam uma só linha horizontal*/ 
         position: absolute;
@@ -271,6 +271,7 @@ footer > p > a:hover{
         border: none;
         background: none;
         cursor: pointer;
+        gap: .5rem;
     }
     #burguer{
         margin-left: 5px;
