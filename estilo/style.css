@@ -37,7 +37,42 @@ body{
 a.externo::after{
     content: '\00a0\1F517'; /*este comando irá dar um espaço e adicionar um símbolo que peguei na emojipedia*/
 }
+
+#log{
+
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    background: var(--cor3);
+    justify-content: end;
+    padding: 10px 10px 0 10px;
+    position: relative;
+    align-items: center;
+}
+
+#l1{
+    margin-right: 10px;
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#l2{
+    padding: 10px;
+    background-color: var(--cor4);
+    border-radius: 8px;
+    cursor: pointer;
+}
+#l1:hover, #l2:hover{
+    color: var(--cor4);
+    background-color: var(--cor2);
+    transition: .4s;
+
+}
+
 #cabeçalho{
+
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));/*Degradê de cor para ficar escurecida de cima para baixo*/
     min-height: 150px;
     text-align: center;
@@ -52,6 +87,7 @@ a.externo::after{
     font-weight: normal;
     padding: 20px; /*Espaçamento entre título e texto*/
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.418); /*Este comando serve para colocar sombra no texto, não confunda nunca text shadow com box shadow. Se quiser colocar sombra somente no texto use text-shadow se quiser colar na caixa inteira aí é o box-shadow*/
+
     }
     
     #cabeçalho > p{
