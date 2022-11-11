@@ -265,21 +265,30 @@ footer{
     color: white;
     text-align: center;
     font-size: 0.8em;
-    padding: 5px;
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-size: .8em;
+    justify-content: space-between;
 }
-footer{
-    position: relative;
-}
+
 footer > p{
+    padding: 5px;
     font-size: 1rem;
     font-weight: bolder;
     margin-top: 10px;
     text-align: justify;
     display: block;
     
+}
+
+footer >h3{
+    font-size: 1.2rem;
+    padding-top: 2%;
+    margin-right: 40%;
+}
+.dev{
+    margin-left: 50%;
+    padding: 10px;
 }
 footer > p > a{ /*funciona normalmente desde que tenham estas tags dentro de footer*/
     color: var(--cor0);
@@ -291,9 +300,10 @@ footer > p > a{ /*funciona normalmente desde que tenham estas tags dentro de foo
     padding: 3px;
 }
 footer > p > a:hover{
-    background-color: var(--cor5);
-    color: var(--cor1);
+    background-color: var(--cor0);
+    color: var(--cor5);
     border-radius: 3px;
+    padding: 10px;
 }
 
 @media (max-width: 660px){
