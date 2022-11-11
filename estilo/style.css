@@ -270,11 +270,20 @@ footer{
     font-weight: bold;
     font-size: .8em;
 }
-
+footer{
+    position: relative;
+}
+footer > p{
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: justify;
+    display: block;
+    
+}
 footer > p > a{ /*funciona normalmente desde que tenham estas tags dentro de footer*/
-    color: var(--cor5);
+    color: var(--cor0);
     text-decoration: none;
-    background-color: var(--cor2);
     font-family: var(--fonte-padrao);
     transition-duration: .3s;
     border-radius: 3px;
