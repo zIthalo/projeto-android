@@ -64,11 +64,23 @@ a.externo::after{
     border-radius: 8px;
     cursor: pointer;
 }
+.btn-log{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
 #l1:hover, #l2:hover{
-    color: var(--cor4);
     background-color: var(--cor2);
     transition: .4s;
+    color: var(--cor5);
+}
 
+#l1 a:hover{
+    color: var(--cor5);
+    display: block;
+}
+#l2 a:hover{
+    color: var(--cor5);
 }
 
 #cabeçalho{
