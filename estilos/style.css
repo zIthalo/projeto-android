@@ -50,19 +50,18 @@ a.externo::after{
     align-items: center;
 }
 
-#l1{
+#l1, #l2{
+    margin-top: 10px;
     margin-right: 3%;
     cursor: pointer;
 }
-#l2{
-    cursor: pointer;
-}
+
 .btn-log{
+    margin-top: 10px;
     border-radius: 10px;
     background-color: var(--cor4);
     color: white;
     text-decoration: none;
-    display: block;
     padding: 10px;
     outline: none;
 }
@@ -72,13 +71,6 @@ a.externo::after{
     background-color: var(--cor2);
 }
 
-#l1 a:hover{
-    color: var(--cor5);
-    display: block;
-}
-#l2 a:hover{
-    color: var(--cor5);
-}
 
 #cabeçalho{
 
