@@ -275,6 +275,7 @@ footer >h3{
     padding-top: 2%;
     margin-right: 40%;
 }
+
 .dev{
     margin-left: 50%;
     padding: 10px;
@@ -354,6 +355,12 @@ footer > p > a:hover{
         transform: rotate(-135deg);
         top: -7px;
         
+    }
+    .map{
+        background-color: var(--cor5);
+        display: block;
+        margin: auto;
+        gap: 15px;
     }
 }
 
