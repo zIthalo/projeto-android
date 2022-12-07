@@ -295,6 +295,12 @@ footer > p > a:hover{
     border-radius: 3px;
     padding: 10px;
 }
+.map{  
+    padding: 20px;
+    display: block;
+    margin: auto;
+
+}
 
 @media (max-width: 660px){
     #menu{
@@ -357,10 +363,10 @@ footer > p > a:hover{
         
     }
     .map{
-        background-color: var(--cor5);
-        display: block;
-        margin: auto;
-        gap: 15px;
+        max-width: 353px;
+        position: relative;
+        padding: 16px;
+        left: -6%;
     }
 }
 
