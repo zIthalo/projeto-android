@@ -28,6 +28,38 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+    background-color: var(--cor5);
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background-color: var(--cor5);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
@@ -45,8 +77,8 @@ a.externo::after{
     font-size: 1rem;
     background: var(--cor3);
     justify-content: end;
-    padding: 10px 10px 0 10px;
-    position: relative;
+    padding: 20px;
+    /* position: relative; */
     align-items: center;
 }
 
